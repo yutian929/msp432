@@ -1,0 +1,514 @@
+
+**** Build of configuration Debug for project chaosheng ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../HC-SR04/Library/adc14.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/adc14.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/adc14.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/adc14.obj' failed
+"../HC-SR04/Library/adc14.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/adc14.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/adc14.obj] Error 1
+Building file: "../HC-SR04/Library/aes256.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/aes256.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/aes256.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/aes256.obj' failed
+"..\HC-SR04\Library\aes256.h", line 58: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/aes256.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/aes256.obj] Error 1
+Building file: "../HC-SR04/Library/comp_e.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/comp_e.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/comp_e.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/comp_e.obj' failed
+"..\HC-SR04\Library\comp_e.h", line 58: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/comp_e.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/comp_e.obj] Error 1
+Building file: "../HC-SR04/Library/cpu.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/cpu.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/cpu.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/cpu.obj' failed
+"..\HC-SR04\Library\cpu.h", line 40: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/cpu.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/cpu.obj] Error 1
+Building file: "../HC-SR04/Library/crc32.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/crc32.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/crc32.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/crc32.obj' failed
+"..\HC-SR04\Library\crc32.h", line 46: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/crc32.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/crc32.obj] Error 1
+Building file: "../HC-SR04/Library/cs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/cs.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/cs.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/cs.obj' failed
+"../HC-SR04/Library/cs.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/cs.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/cs.obj] Error 1
+Building file: "../HC-SR04/Library/dma.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/dma.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/dma.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/dma.obj' failed
+"../HC-SR04/Library/dma.c", line 37: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/dma.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/dma.obj] Error 1
+Building file: "../HC-SR04/Library/flash.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/flash.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/flash.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/flash.obj' failed
+"../HC-SR04/Library/flash.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/flash.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/flash.obj] Error 1
+Building file: "../HC-SR04/Library/fpu.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/fpu.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/fpu.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/fpu.obj' failed
+"../HC-SR04/Library/fpu.c", line 37: fatal error #1965: cannot open source file "fpu.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/fpu.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/fpu.obj] Error 1
+Building file: "../HC-SR04/Library/gpio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/gpio.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/gpio.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/gpio.obj' failed
+"../HC-SR04/Library/gpio.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/gpio.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/gpio.obj] Error 1
+Building file: "../HC-SR04/Library/i2c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/i2c.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/i2c.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/i2c.obj' failed
+"../HC-SR04/Library/i2c.c", line 37: fatal error #1965: cannot open source file "i2c.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/i2c.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/i2c.obj] Error 1
+Building file: "../HC-SR04/Library/interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/interrupt.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/interrupt.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/interrupt.obj' failed
+"../HC-SR04/Library/interrupt.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/interrupt.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/interrupt.obj] Error 1
+Building file: "../HC-SR04/Library/mpu.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/mpu.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/mpu.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/mpu.obj' failed
+"../HC-SR04/Library/mpu.c", line 37: fatal error #1965: cannot open source file "debug.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/mpu.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/mpu.obj] Error 1
+Building file: "../HC-SR04/Library/pcm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/pcm.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/pcm.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/pcm.obj' failed
+"../HC-SR04/Library/pcm.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/pcm.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/pcm.obj] Error 1
+Building file: "../HC-SR04/Library/pmap.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/pmap.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/pmap.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/pmap.obj' failed
+"../HC-SR04/Library/pmap.c", line 37: fatal error #1965: cannot open source file "debug.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/pmap.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/pmap.obj] Error 1
+Building file: "../HC-SR04/Library/pss.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/pss.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/pss.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/pss.obj' failed
+"../HC-SR04/Library/pss.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/pss.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/pss.obj] Error 1
+Building file: "../HC-SR04/Library/ref_a.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/ref_a.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/ref_a.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/ref_a.obj' failed
+"../HC-SR04/Library/ref_a.c", line 37: fatal error #1965: cannot open source file "ref_a.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/ref_a.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/ref_a.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/chaosheng" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 9: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 10: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 11: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 12: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 13: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 14: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 15: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 16: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 17: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 18: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 19: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 20: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 21: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 22: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 23: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 24: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 25: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 26: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 27: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 28: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 29: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 30: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 31: warning #303-D: typedef name has already been declared (with same type)
+"..\main.h", line 32: warning #303-D: typedef name has already been declared (with same type)
+"../main.c", line 31: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../main.c"
+ 
+Building file: "../HC-SR04/Library/reset.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/reset.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/reset.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/reset.obj' failed
+"../HC-SR04/Library/reset.c", line 37: fatal error #1965: cannot open source file "reset.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/reset.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/reset.obj] Error 1
+Building file: "../HC-SR04/Library/rtc_c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/rtc_c.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/rtc_c.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/rtc_c.obj' failed
+"../HC-SR04/Library/rtc_c.c", line 37: fatal error #1965: cannot open source file "rtc_c.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/rtc_c.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/rtc_c.obj] Error 1
+Building file: "../HC-SR04/Library/spi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/spi.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/spi.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/spi.obj' failed
+"../HC-SR04/Library/spi.c", line 37: fatal error #1965: cannot open source file "spi.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/spi.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/spi.obj] Error 1
+Building file: "../HC-SR04/Library/sysctl.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/sysctl.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/sysctl.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/sysctl.obj' failed
+"../HC-SR04/Library/sysctl.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/sysctl.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/sysctl.obj] Error 1
+Building file: "../HC-SR04/Library/systick.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/systick.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/systick.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/systick.obj' failed
+"../HC-SR04/Library/systick.c", line 37: fatal error #1965: cannot open source file "debug.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/systick.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/systick.obj] Error 1
+Building file: "../HC-SR04/Library/timer32.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/timer32.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/timer32.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/timer32.obj' failed
+"../HC-SR04/Library/timer32.c", line 37: fatal error #1965: cannot open source file "timer32.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/timer32.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/timer32.obj] Error 1
+Building file: "../HC-SR04/Library/timer_a.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/timer_a.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/timer_a.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/timer_a.obj' failed
+"../HC-SR04/Library/timer_a.c", line 37: fatal error #1965: cannot open source file "timer_a.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/timer_a.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/timer_a.obj] Error 1
+Building file: "../HC-SR04/Library/uart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/uart.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/uart.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/uart.obj' failed
+"../HC-SR04/Library/uart.c", line 37: fatal error #1965: cannot open source file "uart.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/uart.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/uart.obj] Error 1
+Building file: "../HC-SR04/Library/wdt_a.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/ccshhh/ccs/ccs_base/arm/include" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/Users/Administrator/Desktop/ccs_code/chaosheng/HC-SR04/Library" --include_path="D:/ccshhh/ccs/ccs_base/arm/include/CMSIS" --include_path="D:/ccs/workplace/chaosheng" --include_path="D:/ccshhh/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HC-SR04/Library/wdt_a.d_raw" --obj_directory="HC-SR04/Library"  "../HC-SR04/Library/wdt_a.c"
+ 
+>> Compilation failure
+HC-SR04/Library/subdir_rules.mk:9: recipe for target 'HC-SR04/Library/wdt_a.obj' failed
+"../HC-SR04/Library/wdt_a.c", line 38: fatal error #1965: cannot open source file "stdint.h"
+1 catastrophic error detected in the compilation of "../HC-SR04/Library/wdt_a.c".
+Compilation terminated.
+gmake: *** [HC-SR04/Library/wdt_a.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

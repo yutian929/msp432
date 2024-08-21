@@ -1,0 +1,542 @@
+
+**** Build of configuration Debug for project Pack03OV7670 ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../app_bluetooth.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="app_bluetooth.d_raw"  "../app_bluetooth.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'app_bluetooth.obj' failed
+"../app_bluetooth.c", line 14: fatal error #1965: cannot open source file "stm32f10x.h"
+1 catastrophic error detected in the compilation of "../app_bluetooth.c".
+Compilation terminated.
+gmake: *** [app_bluetooth.obj] Error 1
+Building file: "../app_colormode.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="app_colormode.d_raw"  "../app_colormode.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'app_colormode.obj' failed
+"../app_colormode.c", line 15: fatal error #1965: cannot open source file "bsp_colorful.h"
+1 catastrophic error detected in the compilation of "../app_colormode.c".
+Compilation terminated.
+gmake: *** [app_colormode.obj] Error 1
+Building file: "../app_linewalking.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="app_linewalking.d_raw"  "../app_linewalking.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'app_linewalking.obj' failed
+"..\app_motor.h", line 18: fatal error #1965: cannot open source file "bsp_motor.h"
+1 catastrophic error detected in the compilation of "../app_linewalking.c".
+Compilation terminated.
+gmake: *** [app_linewalking.obj] Error 1
+Building file: "../app_motor.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="app_motor.d_raw"  "../app_motor.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'app_motor.obj' failed
+"..\app_motor.h", line 18: fatal error #1965: cannot open source file "bsp_motor.h"
+1 catastrophic error detected in the compilation of "../app_motor.c".
+Compilation terminated.
+gmake: *** [app_motor.obj] Error 1
+Building file: "../app_ultrasonic.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="app_ultrasonic.d_raw"  "../app_ultrasonic.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'app_ultrasonic.obj' failed
+"../app_ultrasonic.c", line 15: fatal error #1965: cannot open source file "bsp_ultrasonic.h"
+1 catastrophic error detected in the compilation of "../app_ultrasonic.c".
+Compilation terminated.
+gmake: *** [app_ultrasonic.obj] Error 1
+Building file: "../delay.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="delay.d_raw"  "../delay.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'delay.obj' failed
+"../delay.c", line 44: error #20: identifier "u8" is undefined
+"../delay.c", line 131: warning #225-D: function "SysTick_CLKSourceConfig" declared implicitly
+"../delay.c", line 131: error #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+2 errors detected in the compilation of "../delay.c".
+gmake: *** [delay.obj] Error 1
+Building file: "../exti.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exti.d_raw"  "../exti.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'exti.obj' failed
+"..\usart.h", line 20: error #20: identifier "u8" is undefined
+"..\usart.h", line 23: error #20: identifier "u8" is undefined
+"..\usart.h", line 24: error #20: identifier "u8" is undefined
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 31: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 26: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 32: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 33: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 37: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 38: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 39: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 40: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 41: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 42: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 44: error #20: identifier "u8" is undefined
+"../exti.c", line 9: error #20: identifier "u8" is undefined
+"../exti.c", line 16: warning #225-D: function "EXTI_GetITStatus" declared implicitly
+"../exti.c", line 16: error #20: identifier "EXTI_Line8" is undefined
+"../exti.c", line 16: error #20: identifier "SET" is undefined
+"../exti.c", line 23: error #20: identifier "GPIOC_BASE" is undefined
+"../exti.c", line 24: error #20: identifier "GPIOB_BASE" is undefined
+"../exti.c", line 29: error #20: identifier "GPIOC_BASE" is undefined
+"../exti.c", line 30: error #20: identifier "GPIOB_BASE" is undefined
+"../exti.c", line 38: warning #225-D: function "EXTI_ClearITPendingBit" declared implicitly
+"../exti.c", line 44: error #20: identifier "EXTI_InitTypeDef" is undefined
+"../exti.c", line 45: error #20: identifier "NVIC_InitTypeDef" is undefined
+"../exti.c", line 47: warning #225-D: function "GPIO_EXTILineConfig" declared implicitly
+"../exti.c", line 47: error #20: identifier "GPIO_PortSourceGPIOA" is undefined
+"../exti.c", line 47: error #20: identifier "GPIO_PinSource8" is undefined
+"../exti.c", line 49: error #20: identifier "EXTI_Line8" is undefined
+"../exti.c", line 50: error #20: identifier "EXTI_Mode_Interrupt" is undefined
+"../exti.c", line 51: error #20: identifier "EXTI_Trigger_Rising" is undefined
+"../exti.c", line 52: error #20: identifier "ENABLE" is undefined
+"../exti.c", line 53: warning #225-D: function "EXTI_Init" declared implicitly
+"../exti.c", line 55: error #20: identifier "EXTI9_5_IRQn" is undefined
+"../exti.c", line 59: warning #225-D: function "NVIC_Init" declared implicitly
+37 errors detected in the compilation of "../exti.c".
+gmake: *** [exti.obj] Error 1
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lcd.obj' failed
+"..\lcd.h", line 53: error #20: identifier "u8" is undefined
+"..\lcd.h", line 54: error #20: identifier "u8" is undefined
+"..\lcd.h", line 55: error #20: identifier "u8" is undefined
+"..\lcd.h", line 56: error #20: identifier "u8" is undefined
+"..\lcd.h", line 131: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 137: error #20: identifier "u8" is undefined
+"..\lcd.h", line 137: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 139: error #20: identifier "u8" is undefined
+"..\lcd.h", line 139: error #20: identifier "u8" is undefined
+"..\lcd.h", line 141: error #20: identifier "u8" is undefined
+"..\lcd.h", line 142: error #20: identifier "u8" is undefined
+"..\lcd.h", line 145: error #20: identifier "u8" is undefined
+"..\lcd.h", line 146: error #20: identifier "u8" is undefined
+"..\usart.h", line 20: error #20: identifier "u8" is undefined
+"..\usart.h", line 23: error #20: identifier "u8" is undefined
+"..\usart.h", line 24: error #20: identifier "u8" is undefined
+"../lcd.c", line 39: error #20: identifier "u8" is undefined
+"../lcd.c", line 47: error #20: identifier "u8" is undefined
+"../lcd.c", line 71: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 72: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 73: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 74: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 79: error #20: identifier "u8" is undefined
+"../lcd.c", line 81: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../lcd.c", line 101: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 102: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 135: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 145: error #20: identifier "u8" is undefined
+"../lcd.c", line 148: error #20: identifier "u8" is undefined
+"../lcd.c", line 169: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 172: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 175: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 178: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 181: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 184: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 187: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 190: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 194: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 195: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 225: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 228: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 231: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 234: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 237: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 240: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 243: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 246: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 252: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 256: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 285: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 296: error #20: identifier "u8" is undefined
+"../lcd.c", line 353: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../lcd.c", line 354: error #20: identifier "FSMC_NORSRAMInitTypeDef" is undefined
+"../lcd.c", line 355: error #20: identifier "FSMC_NORSRAMTimingInitTypeDef" is undefined
+"../lcd.c", line 356: error #20: identifier "FSMC_NORSRAMTimingInitTypeDef" is undefined
+"../lcd.c", line 358: warning #225-D: function "RCC_AHBPeriphClockCmd" declared implicitly
+"../lcd.c", line 358: error #20: identifier "RCC_AHBPeriph_FSMC" is undefined
+"../lcd.c", line 358: error #20: identifier "ENABLE" is undefined
+"../lcd.c", line 359: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../lcd.c", line 359: error #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+"../lcd.c", line 359: error #20: identifier "RCC_APB2Periph_GPIOD" is undefined
+"../lcd.c", line 359: error #20: identifier "RCC_APB2Periph_GPIOE" is undefined
+"../lcd.c", line 359: error #20: identifier "RCC_APB2Periph_GPIOG" is undefined
+"../lcd.c", line 359: error #20: identifier "RCC_APB2Periph_AFIO" is undefined
+"../lcd.c", line 361: error #20: identifier "GPIO_Pin_0" is undefined
+"../lcd.c", line 362: error #20: identifier "GPIO_Mode_Out_PP" is undefined
+"../lcd.c", line 363: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../lcd.c", line 364: warning #225-D: function "GPIO_Init" declared implicitly
+"../lcd.c", line 364: error #20: identifier "GPIOB" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_1" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_4" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_5" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_8" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_9" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_10" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_14" is undefined
+"../lcd.c", line 367: error #20: identifier "GPIO_Pin_15" is undefined
+"../lcd.c", line 368: error #20: identifier "GPIO_Mode_AF_PP" is undefined
+"../lcd.c", line 370: error #20: identifier "GPIOD" is undefined
+"../lcd.c", line 373: error #20: identifier "GPIO_Pin_7" is undefined
+"../lcd.c", line 373: error #20: identifier "GPIO_Pin_11" is undefined
+"../lcd.c", line 373: error #20: identifier "GPIO_Pin_12" is undefined
+"../lcd.c", line 373: error #20: identifier "GPIO_Pin_13" is undefined
+"../lcd.c", line 376: error #20: identifier "GPIOE" is undefined
+"../lcd.c", line 382: error #20: identifier "GPIOG" is undefined
+"../lcd.c", line 390: error #20: identifier "FSMC_AccessMode_A" is undefined
+"../lcd.c", line 402: error #20: identifier "FSMC_Bank1_NORSRAM4" is undefined
+"../lcd.c", line 403: error #20: identifier "FSMC_DataAddressMux_Disable" is undefined
+"../lcd.c", line 404: error #20: identifier "FSMC_MemoryType_SRAM" is undefined
+"../lcd.c", line 405: error #20: identifier "FSMC_MemoryDataWidth_16b" is undefined
+"../lcd.c", line 406: error #20: identifier "FSMC_BurstAccessMode_Disable" is undefined
+"../lcd.c", line 407: error #20: identifier "FSMC_WaitSignalPolarity_Low" is undefined
+"../lcd.c", line 408: error #20: identifier "FSMC_AsynchronousWait_Disable" is undefined
+"../lcd.c", line 409: error #20: identifier "FSMC_WrapMode_Disable" is undefined
+"../lcd.c", line 410: error #20: identifier "FSMC_WaitSignalActive_BeforeWaitState" is undefined
+"../lcd.c", line 411: error #20: identifier "FSMC_WriteOperation_Enable" is undefined
+"../lcd.c", line 412: error #20: identifier "FSMC_WaitSignal_Disable" is undefined
+"../lcd.c", line 413: error #20: identifier "FSMC_ExtendedMode_Enable" is undefined
+"../lcd.c", line 414: error #20: identifier "FSMC_WriteBurst_Disable" is undefined
+"../lcd.c", line 418: warning #225-D: function "FSMC_NORSRAMInit" declared implicitly
+"../lcd.c", line 420: warning #225-D: function "FSMC_NORSRAMCmd" declared implicitly
+"../lcd.c", line 1242: error #20: identifier "GPIOB_BASE" is undefined
+"../lcd.c", line 447: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../lcd.c", line 1266: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1271: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1267: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1281: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1282: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1287: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1283: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1310: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1339: error #20: identifier "u8" is undefined
+"../lcd.c", line 1370: error #20: identifier "u8" is undefined
+"../lcd.c", line 1370: error #20: identifier "u8" is undefined
+"../lcd.c", line 1370: error #20: identifier "u8" is undefined
+"../lcd.c", line 1372: error #20: identifier "u8" is undefined
+"../lcd.c", line 1389: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1394: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1410: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1415: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1426: error #20: identifier "u8" is undefined
+"../lcd.c", line 1426: error #20: identifier "u8" is undefined
+"../lcd.c", line 1438: error #20: identifier "u8" is undefined
+"../lcd.c", line 1438: error #20: identifier "u8" is undefined
+"../lcd.c", line 1440: error #20: identifier "u8" is undefined
+"../lcd.c", line 1441: error #20: identifier "u8" is undefined
+"../lcd.c", line 1466: error #20: identifier "u8" is undefined
+"../lcd.c", line 1466: error #20: identifier "u8" is undefined
+"../lcd.c", line 1466: error #20: identifier "u8" is undefined
+"../lcd.c", line 1468: error #20: identifier "u8" is undefined
+"../lcd.c", line 1469: error #20: identifier "u8" is undefined
+"../lcd.c", line 1491: error #20: identifier "u8" is undefined
+"../lcd.c", line 1491: error #20: identifier "u8" is undefined
+"../lcd.c", line 1493: error #20: identifier "u8" is undefined
+"../lcd.c", line 1494: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../lcd.c", line 1495: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+93 errors detected in the compilation of "../lcd.c".
+gmake: *** [lcd.obj] Error 1
+Building file: "../led.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="led.d_raw"  "../led.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'led.obj' failed
+"../led.c", line 10: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../led.c", line 12: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../led.c", line 12: error #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+"../led.c", line 12: error #20: identifier "RCC_APB2Periph_GPIOE" is undefined
+"../led.c", line 12: error #20: identifier "ENABLE" is undefined
+"../led.c", line 14: error #20: identifier "GPIO_Pin_5" is undefined
+"../led.c", line 15: error #20: identifier "GPIO_Mode_Out_PP" is undefined
+"../led.c", line 16: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../led.c", line 17: warning #225-D: function "GPIO_Init" declared implicitly
+"../led.c", line 17: error #20: identifier "GPIOB" is undefined
+"../led.c", line 18: warning #225-D: function "GPIO_SetBits" declared implicitly
+"../led.c", line 21: error #20: identifier "GPIOE" is undefined
+9 errors detected in the compilation of "../led.c".
+gmake: *** [led.obj] Error 1
+Building file: "../ov7670.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ov7670.d_raw"  "../ov7670.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'ov7670.obj' failed
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 31: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 26: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 32: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 33: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 37: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 38: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 39: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 40: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 41: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 42: error #20: identifier "u8" is undefined
+"..\ov7670.h", line 44: error #20: identifier "u8" is undefined
+"..\ov7670config.h", line 18: error #20: identifier "u8" is undefined
+"..\ov7670config.h", line 167: error #20: identifier "u8" is undefined
+"..\usart.h", line 20: error #20: identifier "u8" is undefined
+"..\usart.h", line 23: error #20: identifier "u8" is undefined
+"..\usart.h", line 24: error #20: identifier "u8" is undefined
+"..\lcd.h", line 53: error #20: identifier "u8" is undefined
+"..\lcd.h", line 54: error #20: identifier "u8" is undefined
+"..\lcd.h", line 55: error #20: identifier "u8" is undefined
+"..\lcd.h", line 56: error #20: identifier "u8" is undefined
+"..\lcd.h", line 131: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 136: error #20: identifier "u8" is undefined
+"..\lcd.h", line 137: error #20: identifier "u8" is undefined
+"..\lcd.h", line 137: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 138: error #20: identifier "u8" is undefined
+"..\lcd.h", line 139: error #20: identifier "u8" is undefined
+"..\lcd.h", line 139: error #20: identifier "u8" is undefined
+"..\lcd.h", line 141: error #20: identifier "u8" is undefined
+"..\lcd.h", line 142: error #20: identifier "u8" is undefined
+"..\lcd.h", line 145: error #20: identifier "u8" is undefined
+"..\lcd.h", line 146: error #20: identifier "u8" is undefined
+"../ov7670.c", line 13: error #20: identifier "u8" is undefined
+"../ov7670.c", line 15: error #20: identifier "u8" is undefined
+"../ov7670.c", line 18: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../ov7670.c", line 19: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../ov7670.c", line 19: error #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+"../ov7670.c", line 19: error #20: identifier "RCC_APB2Periph_GPIOB" is undefined
+"../ov7670.c", line 19: error #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+"../ov7670.c", line 19: error #20: identifier "ENABLE" is undefined
+"../ov7670.c", line 22: error #20: identifier "GPIO_Pin_8" is undefined
+"../ov7670.c", line 23: error #20: identifier "GPIO_Mode_IPU" is undefined
+"../ov7670.c", line 24: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../ov7670.c", line 25: warning #225-D: function "GPIO_Init" declared implicitly
+"../ov7670.c", line 25: error #20: identifier "GPIOA" is undefined
+"../ov7670.c", line 29: error #20: identifier "GPIO_Pin_5" is undefined
+"../ov7670.c", line 29: error #20: identifier "GPIO_Pin_6" is undefined
+"../ov7670.c", line 29: error #20: identifier "GPIO_Pin_7" is undefined
+"../ov7670.c", line 30: error #20: identifier "GPIO_Mode_Out_PP" is undefined
+"../ov7670.c", line 31: error #20: identifier "GPIOC" is undefined
+"../ov7670.c", line 32: warning #225-D: function "GPIO_SetBits" declared implicitly
+"../ov7670.c", line 37: error #20: identifier "GPIOB" is undefined
+"../ov7670.c", line 38: error #20: identifier "GPIO_Pin_0" is undefined
+"../ov7670.c", line 38: error #20: identifier "GPIO_Pin_1" is undefined
+"../ov7670.c", line 43: warning #225-D: function "GPIO_PinRemapConfig" declared implicitly
+"../ov7670.c", line 43: error #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+"../ov7670.c", line 54: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../ov7670.c", line 65: error #20: identifier "u8" is undefined
+"../ov7670.c", line 99: error #20: identifier "u8" is undefined
+"../ov7670.c", line 101: error #20: identifier "u8" is undefined
+"../ov7670.c", line 102: error #20: identifier "u8" is undefined
+"../ov7670.c", line 103: error #20: identifier "u8" is undefined
+"../ov7670.c", line 137: error #20: identifier "u8" is undefined
+"../ov7670.c", line 139: error #20: identifier "u8" is undefined
+"../ov7670.c", line 140: error #20: identifier "u8" is undefined
+"../ov7670.c", line 141: error #20: identifier "u8" is undefined
+"../ov7670.c", line 179: error #20: identifier "u8" is undefined
+"../ov7670.c", line 181: error #20: identifier "u8" is undefined
+"../ov7670.c", line 205: error #20: identifier "u8" is undefined
+"../ov7670.c", line 207: error #20: identifier "u8" is undefined
+"../ov7670.c", line 233: error #20: identifier "u8" is undefined
+"../ov7670.c", line 235: error #20: identifier "u8" is undefined
+"../ov7670.c", line 236: error #20: identifier "u8" is undefined
+"../ov7670.c", line 237: error #20: identifier "u8" is undefined
+"../ov7670.c", line 281: error #20: identifier "u8" is undefined
+"../ov7670.c", line 284: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../ov7670.c", line 285: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+80 errors detected in the compilation of "../ov7670.c".
+gmake: *** [ov7670.obj] Error 1
+Building file: "../sccb.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="sccb.d_raw"  "../sccb.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'sccb.obj' failed
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 30: error #20: identifier "u8" is undefined
+"..\sccb.h", line 31: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 32: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"..\sccb.h", line 33: error #20: identifier "u8" is undefined
+"../sccb.c", line 11: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../sccb.c", line 13: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../sccb.c", line 13: error #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+"../sccb.c", line 13: error #20: identifier "ENABLE" is undefined
+"../sccb.c", line 15: error #20: identifier "GPIO_Pin_11" is undefined
+"../sccb.c", line 16: error #20: identifier "GPIO_Mode_IPU" is undefined
+"../sccb.c", line 17: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../sccb.c", line 18: warning #225-D: function "GPIO_Init" declared implicitly
+"../sccb.c", line 18: error #20: identifier "GPIOA" is undefined
+"../sccb.c", line 19: warning #225-D: function "GPIO_SetBits" declared implicitly
+"../sccb.c", line 19: error #20: identifier "GPIO_Pin_13" is undefined
+"../sccb.c", line 21: error #20: identifier "GPIO_Pin_12" is undefined
+"../sccb.c", line 22: error #20: identifier "GPIO_Mode_Out_PP" is undefined
+"../sccb.c", line 34: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 47: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 58: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 68: error #20: identifier "u8" is undefined
+"../sccb.c", line 68: error #20: identifier "u8" is undefined
+"../sccb.c", line 70: error #20: identifier "u8" is undefined
+"../sccb.c", line 73: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 81: error #20: identifier "GPIOA" is undefined
+"../sccb.c", line 83: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 88: error #20: identifier "GPIOA" is undefined
+"../sccb.c", line 94: error #20: identifier "u8" is undefined
+"../sccb.c", line 96: error #20: identifier "u8" is undefined
+"../sccb.c", line 97: error #20: identifier "GPIOA" is undefined
+"../sccb.c", line 101: error #20: identifier "GPIOA_BASE" is undefined
+"../sccb.c", line 107: error #20: identifier "GPIOA" is undefined
+"../sccb.c", line 112: error #20: identifier "u8" is undefined
+"../sccb.c", line 112: error #20: identifier "u8" is undefined
+"../sccb.c", line 112: error #20: identifier "u8" is undefined
+"../sccb.c", line 114: error #20: identifier "u8" is undefined
+"../sccb.c", line 126: error #20: identifier "u8" is undefined
+"../sccb.c", line 126: error #20: identifier "u8" is undefined
+"../sccb.c", line 128: error #20: identifier "u8" is undefined
+40 errors detected in the compilation of "../sccb.c".
+gmake: *** [sccb.obj] Error 1
+Building file: "../sys.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="sys.d_raw"  "../sys.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'sys.obj' failed
+"../sys.c", line 18: warning #225-D: function "NVIC_PriorityGroupConfig" declared implicitly
+"../sys.c", line 18: error #20: identifier "NVIC_PriorityGroup_2" is undefined
+1 error detected in the compilation of "../sys.c".
+gmake: *** [sys.obj] Error 1
+Building file: "../usart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack03OV7670" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="usart.d_raw"  "../usart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'usart.obj' failed
+"..\usart.h", line 20: error #20: identifier "u8" is undefined
+"..\usart.h", line 23: error #20: identifier "u8" is undefined
+"..\usart.h", line 24: error #20: identifier "u8" is undefined
+"../usart.c", line 34: error #20: identifier "u8" is undefined
+"../usart.c", line 35: error #20: identifier "u8" is undefined
+"../usart.c", line 41: warning #163-D: unrecognized #pragma
+"../usart.c", line 58: error #20: identifier "USART2" is undefined
+"../usart.c", line 59: error #20: identifier "u8" is undefined
+"../usart.c", line 59: error #66: expected a ";"
+"../usart.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../usart.c", line 85: error #20: identifier "u8" is undefined
+"../usart.c", line 105: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../usart.c", line 106: error #20: identifier "USART_InitTypeDef" is undefined
+"../usart.c", line 107: error #20: identifier "NVIC_InitTypeDef" is undefined
+"../usart.c", line 109: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../usart.c", line 109: error #20: identifier "RCC_APB2Periph_USART1" is undefined
+"../usart.c", line 109: error #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+"../usart.c", line 109: error #20: identifier "ENABLE" is undefined
+"../usart.c", line 112: error #20: identifier "GPIO_Pin_9" is undefined
+"../usart.c", line 113: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../usart.c", line 114: error #20: identifier "GPIO_Mode_AF_PP" is undefined
+"../usart.c", line 115: warning #225-D: function "GPIO_Init" declared implicitly
+"../usart.c", line 115: error #20: identifier "GPIOA" is undefined
+"../usart.c", line 118: error #20: identifier "GPIO_Pin_10" is undefined
+"../usart.c", line 119: error #20: identifier "GPIO_Mode_IN_FLOATING" is undefined
+"../usart.c", line 123: error #20: identifier "USART1_IRQn" is undefined
+"../usart.c", line 127: warning #225-D: function "NVIC_Init" declared implicitly
+"../usart.c", line 132: error #20: identifier "USART_WordLength_8b" is undefined
+"../usart.c", line 133: error #20: identifier "USART_StopBits_1" is undefined
+"../usart.c", line 134: error #20: identifier "USART_Parity_No" is undefined
+"../usart.c", line 135: error #20: identifier "USART_HardwareFlowControl_None" is undefined
+"../usart.c", line 136: error #20: identifier "USART_Mode_Rx" is undefined
+"../usart.c", line 136: error #20: identifier "USART_Mode_Tx" is undefined
+"../usart.c", line 138: warning #225-D: function "USART_Init" declared implicitly
+"../usart.c", line 138: error #20: identifier "USART1" is undefined
+"../usart.c", line 139: warning #225-D: function "USART_ITConfig" declared implicitly
+"../usart.c", line 139: error #20: identifier "USART_IT_RXNE" is undefined
+"../usart.c", line 140: warning #225-D: function "USART_Cmd" declared implicitly
+"../usart.c", line 198: error #20: identifier "GPIO_InitTypeDef" is undefined
+"../usart.c", line 199: error #20: identifier "USART_InitTypeDef" is undefined
+"../usart.c", line 200: error #20: identifier "NVIC_InitTypeDef" is undefined
+"../usart.c", line 202: warning #225-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+"../usart.c", line 202: error #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+"../usart.c", line 202: error #20: identifier "ENABLE" is undefined
+"../usart.c", line 203: warning #225-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+"../usart.c", line 203: error #20: identifier "RCC_APB1Periph_USART2" is undefined
+"../usart.c", line 206: error #20: identifier "GPIO_Pin_2" is undefined
+"../usart.c", line 207: error #20: identifier "GPIO_Speed_50MHz" is undefined
+"../usart.c", line 208: error #20: identifier "GPIO_Mode_AF_PP" is undefined
+"../usart.c", line 209: warning #225-D: function "GPIO_Init" declared implicitly
+"../usart.c", line 209: error #20: identifier "GPIOA" is undefined
+"../usart.c", line 212: error #20: identifier "GPIO_Pin_3" is undefined
+"../usart.c", line 213: error #20: identifier "GPIO_Mode_IN_FLOATING" is undefined
+"../usart.c", line 217: error #20: identifier "USART2_IRQn" is undefined
+"../usart.c", line 221: warning #225-D: function "NVIC_Init" declared implicitly
+"../usart.c", line 226: error #20: identifier "USART_WordLength_8b" is undefined
+"../usart.c", line 227: error #20: identifier "USART_StopBits_1" is undefined
+"../usart.c", line 228: error #20: identifier "USART_Parity_No" is undefined
+"../usart.c", line 229: error #20: identifier "USART_HardwareFlowControl_None" is undefined
+"../usart.c", line 230: error #20: identifier "USART_Mode_Rx" is undefined
+"../usart.c", line 230: error #20: identifier "USART_Mode_Tx" is undefined
+"../usart.c", line 232: warning #225-D: function "USART_Init" declared implicitly
+"../usart.c", line 232: error #20: identifier "USART2" is undefined
+"../usart.c", line 233: warning #225-D: function "USART_ITConfig" declared implicitly
+"../usart.c", line 233: error #20: identifier "USART_IT_RXNE" is undefined
+"../usart.c", line 234: warning #225-D: function "USART_Cmd" declared implicitly
+"../usart.c", line 250: warning #225-D: function "USART_SendData" declared implicitly
+"../usart.c", line 250: error #20: identifier "USART1" is undefined
+"../usart.c", line 251: warning #225-D: function "USART_GetFlagStatus" declared implicitly
+"../usart.c", line 251: error #20: identifier "USART_FLAG_TXE" is undefined
+"../usart.c", line 251: error #20: identifier "RESET" is undefined
+"../usart.c", line 251: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../usart.c", line 255: error #20: identifier "u8" is undefined
+"../usart.c", line 259: warning #225-D: function "USART_GetITStatus" declared implicitly
+"../usart.c", line 259: error #20: identifier "USART1" is undefined
+"../usart.c", line 259: error #20: identifier "USART_IT_RXNE" is undefined
+"../usart.c", line 259: error #20: identifier "RESET" is undefined
+"../usart.c", line 261: warning #225-D: function "USART_ReceiveData" declared implicitly
+"../usart.c", line 300: error #20: identifier "u8" is undefined
+"../usart.c", line 305: error #20: identifier "u8" is undefined
+"../usart.c", line 307: warning #225-D: function "USART_GetFlagStatus" declared implicitly
+"../usart.c", line 307: error #20: identifier "USART2" is undefined
+"../usart.c", line 307: error #20: identifier "USART_FLAG_ORE" is undefined
+"../usart.c", line 307: error #20: identifier "RESET" is undefined
+"../usart.c", line 309: warning #225-D: function "USART_ClearFlag" declared implicitly
+"../usart.c", line 310: warning #225-D: function "USART_ReceiveData" declared implicitly
+"../usart.c", line 313: error #20: identifier "USART_FLAG_RXNE" is undefined
+"../usart.c", line 315: warning #225-D: function "USART_ClearITPendingBit" declared implicitly
+"../usart.c", line 315: error #20: identifier "USART_IT_RXNE" is undefined
+65 errors detected in the compilation of "../usart.c".
+gmake: *** [usart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

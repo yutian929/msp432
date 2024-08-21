@@ -1,0 +1,137 @@
+
+**** Build of configuration Debug for project Pack17mpu6050 ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../pack17.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pack17.d_raw"  "../pack17.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'pack17.obj' failed
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/adc14.c", line 542: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/adc14.c", line 543: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 68: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 70: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 71: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 76: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 95: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 96: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 105: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 130: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 131: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 140: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 185: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 186: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 183: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 191: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 233: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 234: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 231: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 254: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 255: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 294: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 296: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 297: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/aes256.c", line 314: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 725: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 732: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 1300: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 1337: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 163: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 201: remark #1528-D: (ULP 3.1) Detected flag polling using EUSCI_B_IFG_TXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 208: remark #1528-D: (ULP 3.1) Detected flag polling using EUSCI_B_IFG_TXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 239: remark #1528-D: (ULP 3.1) Detected flag polling using EUSCI_B_IFG_TXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 250: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 282: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 332: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 350: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 371: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 380: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 398: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 411: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 431: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 449: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 484: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 487: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 507: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 516: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/i2c.c", line 542: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/interrupt.c", line 127: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/pcm.c", line 61: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/pcm.c", line 215: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/pmap.c", line 58: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/rtc_c.c", line 74: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/rtc_c.c", line 109: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/sysctl.c", line 157: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/sysctl.c", line 168: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/sysctl.c", line 212: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/sysctl.c", line 223: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/uart.c", line 127: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/uart.c", line 137: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/uart.c", line 205: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 234: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 243: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 253: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 261: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 270: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 278: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 287: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 295: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 305: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 319: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 355: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 421: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 423: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 424: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 630: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 633: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 638: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/cs.c", line 641: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../pack17.c", line 47: warning #225-D: function "SCI_getTxFIFOStatus" declared implicitly
+"../pack17.c", line 47: error #20: identifier "mySCI0_BASE" is undefined
+"../pack17.c", line 47: error #20: identifier "SCI_FIFO_TX16" is undefined
+"../pack17.c", line 48: warning #225-D: function "HWREGH" declared implicitly
+"../pack17.c", line 48: error #20: identifier "SCI_O_TXBUF" is undefined
+"../pack17.c", line 48: error #138: expression must be a modifiable lvalue
+"../pack17.c", line 47: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../pack17.c", line 54: warning #225-D: function "SCI_getTxFIFOStatus" declared implicitly
+"../pack17.c", line 54: error #20: identifier "mySCI0_BASE" is undefined
+"../pack17.c", line 54: error #20: identifier "SCI_FIFO_TX16" is undefined
+"../pack17.c", line 55: warning #225-D: function "HWREGH" declared implicitly
+"../pack17.c", line 55: error #20: identifier "SCI_O_TXBUF" is undefined
+"../pack17.c", line 55: error #138: expression must be a modifiable lvalue
+"../pack17.c", line 54: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../pack17.c", line 61: warning #225-D: function "SCI_getTxFIFOStatus" declared implicitly
+"../pack17.c", line 61: error #20: identifier "mySCI0_BASE" is undefined
+"../pack17.c", line 61: error #20: identifier "SCI_FIFO_TX16" is undefined
+"../pack17.c", line 62: warning #225-D: function "HWREGH" declared implicitly
+"../pack17.c", line 62: error #20: identifier "SCI_O_TXBUF" is undefined
+"../pack17.c", line 62: error #138: expression must be a modifiable lvalue
+"../pack17.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../pack17.c", line 72: warning #225-D: function "SCI_getTxFIFOStatus" declared implicitly
+"../pack17.c", line 72: error #20: identifier "mySCI0_BASE" is undefined
+"../pack17.c", line 72: error #20: identifier "SCI_FIFO_TX16" is undefined
+"../pack17.c", line 73: warning #225-D: function "HWREGH" declared implicitly
+"../pack17.c", line 73: error #20: identifier "SCI_O_TXBUF" is undefined
+"../pack17.c", line 73: error #138: expression must be a modifiable lvalue
+"../pack17.c", line 72: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../pack17.c", line 128: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 138: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 140: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 150: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 152: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 162: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 164: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 165: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 185: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 189: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../pack17.c", line 210: warning #112-D: statement is unreachable
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 50: remark #1534-D: (ULP 7.1) Detected use of global variable "MAX_ERASE_NO_TLV" within one function "FlashCtl_eraseSector". Recommend placing variable in the function locally
+"C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx/flash.c", line 51: remark #1534-D: (ULP 7.1) Detected use of global variable "MAX_PROGRAM_NO_TLV" within one function "FlashCtl_programMemory". Recommend placing variable in the function locally
+16 errors detected in the compilation of "../pack17.c".
+gmake: *** [pack17.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

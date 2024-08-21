@@ -1,0 +1,1 @@
+"./baudarte.obj" "./bsp_mpu6050.obj" "./delay.obj" "./inv_mpu.obj" "./inv_mpu_dmp_motion_driver.obj" "./key.obj" "./led.obj" "./oled.obj" "./pack17.obj" "./startup_msp432p401r_ccs.obj" "./sysinit.obj" "./system_msp432p401r.obj" "./usart.obj" "../msp432p401r.cmd" -llibc.a 

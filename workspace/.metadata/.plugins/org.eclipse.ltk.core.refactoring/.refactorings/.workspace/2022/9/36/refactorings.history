@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ESP8266_WiFi&apos; to &apos;Lab_WiFi_ESP8266&apos;" description="Rename resource &apos;ESP8266_WiFi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ESP8266_WiFi" name="Lab_WiFi_ESP8266" stamp="1662125389275" updateReferences="true"/>
+</session>

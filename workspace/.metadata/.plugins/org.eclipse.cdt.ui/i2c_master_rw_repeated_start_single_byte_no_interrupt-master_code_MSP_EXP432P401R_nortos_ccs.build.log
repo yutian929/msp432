@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project i2c_master_rw_repeated_start_single_byte_no_interrupt-master_code_MSP_EXP432P401R_nortos_ccs ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'i2c_master_rw_repeated_start_single_byte_no_interrupt-master_code_MSP_EXP432P401R_nortos_ccs.out' is up to date.
+
+**** Build Finished ****

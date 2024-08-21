@@ -1,0 +1,68 @@
+
+**** Build of configuration Debug for project Pack17mpu6050_suspend ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 8: fatal error #1965: cannot open source file "esp.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../eMPL-hal/eMPL_outputs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="eMPL-hal/eMPL_outputs.d_raw" --obj_directory="eMPL-hal"  "../eMPL-hal/eMPL_outputs.c"
+ 
+>> Compilation failure
+eMPL-hal/subdir_rules.mk:9: recipe for target 'eMPL-hal/eMPL_outputs.obj' failed
+"..\eMPL-hal\eMPL_outputs.h", line 19: fatal error #1965: cannot open source file "mltypes.h"
+1 catastrophic error detected in the compilation of "../eMPL-hal/eMPL_outputs.c".
+Compilation terminated.
+gmake: *** [eMPL-hal/eMPL_outputs.obj] Error 1
+Building file: "../msp432Peripherals/msp432_Clock.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="msp432Peripherals/msp432_Clock.d_raw" --obj_directory="msp432Peripherals"  "../msp432Peripherals/msp432_Clock.c"
+ 
+>> Compilation failure
+msp432Peripherals/subdir_rules.mk:9: recipe for target 'msp432Peripherals/msp432_Clock.obj' failed
+"../msp432Peripherals/msp432_Clock.c", line 2: fatal error #1965: cannot open source file "msp432_Clock.h"
+1 catastrophic error detected in the compilation of "../msp432Peripherals/msp432_Clock.c".
+Compilation terminated.
+gmake: *** [msp432Peripherals/msp432_Clock.obj] Error 1
+Building file: "../msp432Peripherals/ESP/esp.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="msp432Peripherals/ESP/esp.d_raw" --obj_directory="msp432Peripherals/ESP"  "../msp432Peripherals/ESP/esp.c"
+ 
+>> Compilation failure
+msp432Peripherals/ESP/subdir_rules.mk:9: recipe for target 'msp432Peripherals/ESP/esp.obj' failed
+"../msp432Peripherals/ESP/esp.c", line 4: fatal error #1965: cannot open source file "msp432_Clock.h"
+1 catastrophic error detected in the compilation of "../msp432Peripherals/ESP/esp.c".
+Compilation terminated.
+gmake: *** [msp432Peripherals/ESP/esp.obj] Error 1
+Building file: "../msp432Peripherals/mpuUart/log_msp432.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="msp432Peripherals/mpuUart/log_msp432.d_raw" --obj_directory="msp432Peripherals/mpuUart"  "../msp432Peripherals/mpuUart/log_msp432.c"
+ 
+>> Compilation failure
+msp432Peripherals/mpuUart/subdir_rules.mk:9: recipe for target 'msp432Peripherals/mpuUart/log_msp432.obj' failed
+"../msp432Peripherals/mpuUart/log_msp432.c", line 25: fatal error #1965: cannot open source file "packet.h"
+1 catastrophic error detected in the compilation of "../msp432Peripherals/mpuUart/log_msp432.c".
+Compilation terminated.
+gmake: *** [msp432Peripherals/mpuUart/log_msp432.obj] Error 1
+Building file: "../msp432Peripherals/mpu_setup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp432_driverlib_3_21_00_05/driverlib/MSP432P4xx" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/workspace/Pack17mpu6050_suspend" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="msp432Peripherals/mpu_setup.d_raw" --obj_directory="msp432Peripherals"  "../msp432Peripherals/mpu_setup.c"
+ 
+>> Compilation failure
+msp432Peripherals/subdir_rules.mk:9: recipe for target 'msp432Peripherals/mpu_setup.obj' failed
+"../msp432Peripherals/mpu_setup.c", line 14: fatal error #1965: cannot open source file "inv_mpu.h"
+1 catastrophic error detected in the compilation of "../msp432Peripherals/mpu_setup.c".
+Compilation terminated.
+gmake: *** [msp432Peripherals/mpu_setup.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

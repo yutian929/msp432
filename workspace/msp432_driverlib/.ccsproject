@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVersion value="11.1.0"/>
+	<deviceVariant value="com.ti.ccstudio.deviceModel.MSP432.CustomMSP432Device"/>
+	<deviceFamily value="MSP432"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="20.2.5.LTS"/>
+	<isElfFormat value="true"/>
+	<createSlaveProjects value=""/>
+	<ignoreDefaultDeviceSettings value="true"/>
+	<templateProperties value="id=msp432p4xx_driverlib.projectspec.msp432_driverlib"/>
+	<origin value="C:\Users\Zaki\Desktop\MSP432_Quick_entry-master\ti_driverlib\simplelink_msp432p4_sdk_3_40_01_02\ti\devices\msp432p4xx\driverlib\ccs\msp432p4xx_driverlib.projectspec"/>
+	<filesToOpen value=""/>
+</projectOptions>

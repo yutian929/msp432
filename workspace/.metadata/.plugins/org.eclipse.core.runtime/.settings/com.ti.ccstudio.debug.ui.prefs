@@ -1,0 +1,9 @@
+MODULES_CODE_OFFSET=
+MODULES_DATA_OFFSET=
+MODULES_MRU_PATH=\#SYM_\#(,)path\=C\:\\ti\\workspace\\Exe02\\Debug\\Exe02.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.1=C\:\\ti\\workspace\\Exe02\\Debug\\Exe02.out
+MODULES_MRU_PATH.2=C\:\\ti\\workspace\\Lab02\\Debug\\Lab02.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+RELOAD_PROGRAM_IF_CHANGED=always
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Texas\ Instruments\ XDS110\ USB\ Debug\ Probe\\CORTEX_M4_0=0x20001000,0x20000000,0x01000000,0x01000080,0x10080,0,0x01
+useAnnotationsPrefPage=true

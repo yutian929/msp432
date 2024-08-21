@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Program04/zyt.h&apos; to &apos;zyt20221218.h&apos;" description="Rename resource &apos;zyt.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="zyt.h" name="zyt20221218.h" stamp="1671352358520" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Program04/zyt.c&apos; to &apos;zyt20221218.c&apos;" description="Rename resource &apos;zyt.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="zyt.c" name="zyt20221218.c" stamp="1671352370221" updateReferences="true"/>
+</session>

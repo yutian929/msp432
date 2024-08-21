@@ -1,0 +1,272 @@
+
+**** Build of configuration Debug for project mmWave-uart ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../EXIN_oled.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="EXIN_oled.d_raw"  "../EXIN_oled.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'EXIN_oled.obj' failed
+"../EXIN_oled.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../EXIN_oled.c".
+Compilation terminated.
+gmake: *** [EXIN_oled.obj] Error 1
+Building file: "../exinlibs/ADS1292.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/ADS1292.d_raw" --obj_directory="exinlibs"  "../exinlibs/ADS1292.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/ADS1292.obj' failed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/ADS1292.c".
+Compilation terminated.
+gmake: *** [exinlibs/ADS1292.obj] Error 1
+Building file: "../exinlibs/ADS_RCV.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/ADS_RCV.d_raw" --obj_directory="exinlibs"  "../exinlibs/ADS_RCV.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/ADS_RCV.obj' failed
+"..\exinlibs\ADS_RCV.h", line 22: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/ADS_RCV.c".
+Compilation terminated.
+gmake: *** [exinlibs/ADS_RCV.obj] Error 1
+Building file: "../exinlibs/LMT70RD.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/LMT70RD.d_raw" --obj_directory="exinlibs"  "../exinlibs/LMT70RD.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/LMT70RD.obj' failed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/LMT70RD.c".
+Compilation terminated.
+gmake: *** [exinlibs/LMT70RD.obj] Error 1
+Building file: "../exinlibs/OV_RCV.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/OV_RCV.d_raw" --obj_directory="exinlibs"  "../exinlibs/OV_RCV.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/OV_RCV.obj' failed
+"../exinlibs/OV_RCV.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\OV_RCV.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/OV_RCV.c".
+Compilation terminated.
+gmake: *** [exinlibs/OV_RCV.obj] Error 1
+Building file: "../exinlibs/Oscill_OLED.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/Oscill_OLED.d_raw" --obj_directory="exinlibs"  "../exinlibs/Oscill_OLED.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/Oscill_OLED.obj' failed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/Oscill_OLED.c".
+Compilation terminated.
+gmake: *** [exinlibs/Oscill_OLED.obj] Error 1
+Building file: "../exinlibs/exinADC.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinADC.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinADC.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinADC.obj' failed
+"../exinlibs/exinADC.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinADC.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinADC.obj] Error 1
+Building file: "../exinlibs/exinHC_SR04.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinHC_SR04.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinHC_SR04.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinHC_SR04.obj' failed
+"../exinlibs/exinHC_SR04.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinHC_SR04.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinHC_SR04.obj] Error 1
+Building file: "../exinlibs/exin_pit.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exin_pit.d_raw" --obj_directory="exinlibs"  "../exinlibs/exin_pit.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exin_pit.obj' failed
+"../exinlibs/exin_pit.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exin_pit.c".
+Compilation terminated.
+gmake: *** [exinlibs/exin_pit.obj] Error 1
+Building file: "../exinlibs/exinadjust.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinadjust.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinadjust.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinadjust.obj' failed
+"../exinlibs/exinadjust.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinadjust.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinadjust.obj] Error 1
+Building file: "../exinlibs/exinencoder.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinencoder.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinencoder.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinencoder.obj' failed
+"../exinlibs/exinencoder.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinencoder.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinencoder.obj] Error 1
+Building file: "../exinlibs/exingpio.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exingpio.d_raw" --obj_directory="exinlibs"  "../exinlibs/exingpio.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exingpio.obj' failed
+"../exinlibs/exingpio.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exingpio.c".
+Compilation terminated.
+gmake: *** [exinlibs/exingpio.obj] Error 1
+Building file: "../exinlibs/exinisr.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinisr.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinisr.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinisr.obj' failed
+"../exinlibs/exinisr.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinisr.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinisr.obj] Error 1
+Building file: "../exinlibs/exinkey.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinkey.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinkey.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinkey.obj' failed
+"../exinlibs/exinkey.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinkey.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinkey.obj] Error 1
+Building file: "../exinlibs/exinmotor.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinmotor.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinmotor.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinmotor.obj' failed
+"../exinlibs/exinmotor.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinmotor.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinmotor.obj] Error 1
+Building file: "../exinlibs/exinpwm.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinpwm.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinpwm.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinpwm.obj' failed
+"../exinlibs/exinpwm.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinpwm.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinpwm.obj] Error 1
+Building file: "../exinlibs/exinsteer.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinsteer.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinsteer.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinsteer.obj' failed
+"../exinlibs/exinsteer.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinsteer.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinsteer.obj] Error 1
+Building file: "../exinlibs/exinsystem.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinsystem.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinsystem.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinsystem.obj' failed
+"../exinlibs/exinsystem.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinsystem.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinsystem.obj] Error 1
+Building file: "../exinlibs/exinuart.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exinuart.d_raw" --obj_directory="exinlibs"  "../exinlibs/exinuart.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/exinuart.obj' failed
+"../exinlibs/exinuart.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/exinuart.c".
+Compilation terminated.
+gmake: *** [exinlibs/exinuart.obj] Error 1
+Building file: "../exinlibs/oled.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/oled.d_raw" --obj_directory="exinlibs"  "../exinlibs/oled.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/oled.obj' failed
+"..\exinlibs\oled.h", line 34: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/oled.c".
+Compilation terminated.
+gmake: *** [exinlibs/oled.obj] Error 1
+Building file: "../exinlibs/serial.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/serial.d_raw" --obj_directory="exinlibs"  "../exinlibs/serial.c"
+ 
+>> Compilation failure
+exinlibs/subdir_rules.mk:9: recipe for target 'exinlibs/serial.obj' failed
+"../exinlibs/serial.c", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 6: warning #9-D: nested comment is not allowed
+"..\exinlibs\headfile.h", line 23: fatal error #1965: cannot open source file "driverlib/driverlib/msp432p4xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../exinlibs/serial.c".
+Compilation terminated.
+gmake: *** [exinlibs/serial.obj] Error 1
+Building file: "../exinlibs/exin_library_map_guide.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/exin_library_map_guide.d_raw" --obj_directory="exinlibs"  "../exinlibs/exin_library_map_guide.c"
+"../exinlibs/exin_library_map_guide.c", line 6: warning #9-D: nested comment is not allowed
+Finished building: "../exinlibs/exin_library_map_guide.c"
+ 
+Building file: "../exinlibs/startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/startup_msp432p401r_ccs.d_raw" --obj_directory="exinlibs"  "../exinlibs/startup_msp432p401r_ccs.c"
+Finished building: "../exinlibs/startup_msp432p401r_ccs.c"
+ 
+Building file: "../exinlibs/system_msp432p401r.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include" --include_path="C:/ti/msp/MSP432Ware_3_40_00_25" --include_path="C:/ti/ccs1110/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/Zaki/Desktop/10.EXIN_oled" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="exinlibs/system_msp432p401r.d_raw" --obj_directory="exinlibs"  "../exinlibs/system_msp432p401r.c"
+"../exinlibs/system_msp432p401r.c", line 156: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../exinlibs/system_msp432p401r.c", line 189: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../exinlibs/system_msp432p401r.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

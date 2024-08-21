@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Pack14Servo_SG90 ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Pack14Servo_SG90.out' is up to date.
+
+**** Build Finished ****

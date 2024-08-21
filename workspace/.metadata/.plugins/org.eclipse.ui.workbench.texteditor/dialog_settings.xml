@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="PORT1"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="port1"/>
+			<item value="key_1"/>
+			<item value="drivers/include/log.h"/>
+			<item value="&lt;drivers/include/log.h&gt;"/>
+			<item value="../drivers/include/mltypes.h"/>
+			<item value="I2C_setMode"/>
+			<item value="MEAS_TEMP_NOHOLD_REGISTER"/>
+			<item value="USCI_A_UART_initParam"/>
+			<item value="PMM_setVCore"/>
+			<item value="BIT4"/>
+			<item value="BIT2"/>
+			<item value="error"/>
+			<item value="mv"/>
+			<item value="A0"/>
+			<item value="TA0"/>
+		</list>
+		<list key="replacehistory">
+			<item value="log.h"/>
+			<item value="mltypes.h"/>
+			<item value="BIT6"/>
+			<item value="BIT5"/>
+			<item value="BIT"/>
+			<item value="r"/>
+			<item value="tempPICTURE"/>
+			<item value="20000"/>
+			<item value="1000"/>
+			<item value=" "/>
+			<item value="&amp;=~"/>
+			<item value="OUT"/>
+			<item value="A2"/>
+			<item value="A3"/>
+			<item value="buzzer"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1013"/>
+		<item key="DIALOG_Y_ORIGIN" value="197"/>
+		<item key="DIALOG_WIDTH" value="339"/>
+		<item key="DIALOG_HEIGHT" value="424"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+</section>

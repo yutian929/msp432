@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Pack999Zaki/zyt.c&apos; to &apos;zyt20221218.c&apos;" description="Rename resource &apos;zyt.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="zyt.c" name="zyt20221218.c" stamp="1671710931627" updateReferences="true"/>
+</session>
